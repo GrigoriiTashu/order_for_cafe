@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coffee house</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <h1>COFFEE HOUSE</h1>
+</header>
+<div class="container">
+
+    <label class="user">
+        <input class="fio" type="text" placeholder="Введите Фамилию">
+        <input class="fio" type="text" placeholder="Введите Имя">
+    </label>
+</div>
+
+<div class="container middle">
+    <div class="order">
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Эспрессо" name="yummy" value="80">
+            <label for="Эспрессо">Эспресо 80р.</label>
+            <input type="number" id="espresso" value="0">
+        </div>
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Американо" name="yummy" value="110">
+            <label for="Американо">Американо 110р.</label>
+            <input type="number" id="americano" value="0">
+        </div>
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Латте" name="yummy" value="120">
+            <label for="Латте">Латте 120р.</label>
+            <input type="number" id="latte" value="0">
+
+        </div>
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Капучино" name="yummy" value="90">
+            <label for="Капучино">Капучино 90р.</label>
+            <input type="number" id="cappuccino" value="0">
+        </div>
+    </div>
+    <div class="order">
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Шоколадный кекс" name="yummy" value="80">
+            <label for="Шоколадный кекс">Шоколадный кекс 80р.</label>
+            <input type="number" id="chocolate_muffin" value="0">
+        </div>
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Черничный кекс" name="yummy" value="90">
+            <label for="Черничный кекс">Черничный кекс 90р.</label>
+            <input type="number" id="blueberry_muffin" value="0">
+        </div>
+        <div class="elem">
+            <input class="checkbox" type="checkbox" id="Яблочный торт" name="yummy" value="100">
+            <label for="Яблочный торт">Яблочный торт 100р.</label>
+            <input type="number" id="apple_tart" value="0">
+        </div>
+    </div>
+</div>
+
+<div class="container below">
+    <p class="result">Итого: 0р.</p>
+    <button class="btn">Оформить заказ</button>
+    <button class="new" value="Refresh Page" onclick="location
+.reload()">Новый заказ</button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
